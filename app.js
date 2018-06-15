@@ -1,3 +1,7 @@
+// TODO: Service Workers
+// TODO: Manifest.json
+// TODO: PouchDB or some sort of more robust persistant client storage
+
 const addItems = document.querySelector('.add-items');
 const itemsList = document.querySelector('.items');
 const items = JSON.parse(localStorage.getItem('items')) || [];
